@@ -1,0 +1,70 @@
+body{
+	background-color: pink;
+	color: white;
+}
+
+h2 {
+	color:pink;
+	font-family: georgia,serif;
+	font-size: 30px;
+}
+
+ h1{
+    color: pink;
+    font-family:'Dr Sugiyama', cursive;
+    font-size: 50px;
+    line-height: 0.5;
+    font-weight: bold;
+}
+
+
+h3 {
+	color:pink;
+	font-family: georgia,serif;
+	font-size: 15px;
+}
+
+
+.container{
+	width: 700px;
+	margin: 40px auto;
+}
+
+@media(max-width: 500px){
+	.container{
+	width:400px;
+	}
+}
+
+@media(max-width: 760px){
+	.container{
+	width:600px;
+	}
+}
+
+.card-green{
+	background-color:grey;
+	padding: 40px;
+	box-shaddow: 0p 10px 30px rgba(0,0,0,0.1);
+	border-radius: 4px
+	margin: 20px 0px;
+	text-align: center;
+	margin-bottom: 30px
+}
+
+#img-circle {
+	max-width:70%;
+	max-height:auto;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	box-shadow: 10px 10px 30px rgba(0,0,0,0.4);
+	border-radius: 50%;
+}
+
+#intro {
+	margin: 20px 0px;
+	text-align:center;
+}
+
+#intro p
